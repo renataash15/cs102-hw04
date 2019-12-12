@@ -11,7 +11,7 @@ width, height = img.size
 
 # Create a new, all-white image that's the same size as the original
 new_img = Image.new("RGB", (width, height), "white")
-
+ 
 for i in range(1, width-1):
     if not i % 10:
         print(f"processing col {i}")
